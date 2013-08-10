@@ -1,12 +1,12 @@
 require 'formula'
 
 class MacvimSplitBrowser < Formula
-  homepage 'https://github.com/alloy/macvim/'
-  url 'https://github.com/alloy/macvim/tarball/10e7bedcdb051833257ab4f6a437c4f09bc6d881'
-  version '20130517'
-  sha1 'f42006db9ee83a3101d61c3d2909f7e5eb74cff6'
+  homepage 'https://github.com/rcarmo/macvim'
+  url 'https://github.com/rcarmo/macvim/tarball/d241428f4ac8b4234c283ddde64c6e6c5bcf4a41'
+  version '20130721'
+  sha1 'd241428f4ac8b4234c283ddde64c6e6c5bcf4a41'
 
-  head 'https://github.com/alloy/macvim.git', :branch => 'split-browser'
+  head 'https://github.com/rcarmo/macvim.git', :branch => 'split-browser'
 
   def options
   [
