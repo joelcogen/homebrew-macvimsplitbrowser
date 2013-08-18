@@ -22,7 +22,7 @@ class MacvimSplitBrowser < Formula
 
   def install
     # MacVim's Xcode project gets confused by $CC, so remove it
-    ENV['CC'] = nil
+    ENV['CC'] = "clang"
     ENV['CFLAGS'] = nil
     ENV['CXX'] = nil
     ENV['CXXFLAGS'] = nil
